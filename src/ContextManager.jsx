@@ -7,73 +7,69 @@ const cvContext = createContext();
 function ContextManager(props) {
     let History = useHistory();
     const content = {
-        name: "Rohan Dutta",
+        name: "Jennifer Philips",
         headerLine: "Professional Goals",
-        headerLineContent: "Looking to establish a career in the field of Information Technology, I wish to work in a growth-oriented company and contribute to the development of the organization while upgrading my skill set and knowledge.",
+        headerLineContent: "I am seeking opportunities to join a company that can help me in enhancing my skills, strengthening my knowledge and realising my potential. I am willing to explore a wide variety of opportunities that can help me gain perspective.",
         headingEducationHistory: "Education History",
         educationHistoryList: [
             {
-                university: "Hansraj College, Delhi University",
-                course: "B.Sc. (H) Electronic Science",
-                cgpa: "8.878 CGPA",
+                university: "University of Tasmania",
+                course: "Master in Design",
+                cgpa: "7.95 CGPA",
                 passingYear: "July'21"
             },
             {
-                university: "Karl Huber School affiliated to C.B.S.E.",
-                course: "Senior Secondary School",
-                cgpa: "88.4%",
+                university: "University of Tasmania",
+                course: "Bachelor in Design",
+                cgpa: "8.62 CGPA",
                 passingYear: "May'18"
             },
             {
-                university: "Karl Huber School affiliated to C.B.S.E.",
-                course: "Secondary School",
-                cgpa: "9.4 CGPA",
-                passingYear: "June'16"
+                university: "Russian Embassy School",
+                course: "High School",
+                cgpa: "93%",
+                passingYear: "June'15"
             }],
         headingProfessionalCertificate: "Professional Certificates",
         professionalCertificateList: [
             {
-                instituteName: "Brillica Services",
-                course: "Full Stack Web Developer",
-                duration: "May'21 - Sept'21"
+                instituteName: "The University of Waikato",
+                course: "Certificate of Mastery in English",
+                duration: "May'21 - Jan'22"
             },
             {
-                instituteName: "Hansraj College, Delhi University",
-                course: "Introduction to Machine Learning",
-                duration: "Aug'20 - Aug'21"
+                instituteName: "Oxford Brookes University",
+                course: "English Language and Study Skills",
+                duration: "Feb'21 - May'21"
             }
         ],
         headingWorkProject: "Work Project",
         workProjectList: [
             {
-                projectName: "Game 2048 using ReactJS",
+                projectName: "Design of Game 2048",
                 projectLink: "https://github.com/rohandutta2710/game2048"
             },
             {
-                projectName: "RDX Education Website using ReactJS",
+                projectName: "UI of RDX Education Website",
                 projectLink: "https://github.com/rohandutta2710/rdxeducation"
             },
             {
-                projectName: "TicTacToe using using HTML, CSS,JavaScript ",
-                projectLink: ""
-            },
-            {
-                projectName: "Snake Game using HTML, CSS, JavaScript",
+                projectName: "Layout of Snake Game",
                 projectLink: "https://github.com/rohandutta2710/rdx.github.io/tree/main/snake"
             }
         ],
         headingSpecialization: "Specialization",
-        specializationList: ["HTML", "MS Word", "Figma"],
+        specializationList: ["Adobe Photoshop","Adobe Illustrator", "Figma", "Gravit Designer"],
         headingHobbies: "Hobbies",
-        hobbies: "Reading, Writing, Coding & Swimming",
+        hobbies: "Writing, Designing & Swimming",
         headingLanguageKnown: "Language Spoken",
-        languageKnown: "English & Hindi",
+        languageKnown: "English, Hindi, French and German",
         headingPhoneNo: "Mobile: ",
-        phoneNo: "+91 9811078851",
+        phoneNo: "+11 451932xxxx",
         headingEmail: "Email: ",
-        email: "rohandutta27102000@gmail.com",
+        email: "jenniferphilips@gmail.com",
         headingWebsite: "Website: ",
-        website: "https://rohandutta.netlify.app/",
+        website: "https://jenniferphilips.com",
         uploadPhoto: image
     };
     window.addEventListener("resize", (e) => {

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { cvContext } from "../ContextManager";
 import EducatonHistoryProps, { ProfessionalCertificateProps, WorkProjectProps, PreviewButtonProps } from "./PropsHubCV1";
 import "./CV1.css";
+import Navbar from "../Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 function CV1Template() {
     const usingContext = useContext(cvContext);
@@ -57,6 +58,7 @@ function CV1Template() {
         usingContext.setContentState({ ...usingContext.contentState, [e.target.name]: imageURL });
     }
     return (<>
+    <Navbar/>
         <div className="outer-container">
             <div className="test-cv-pdf">
                 <div className="cv-main-container">

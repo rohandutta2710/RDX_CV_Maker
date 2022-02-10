@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import { cvContext } from "../ContextManager";
 import { BackBtnPreview } from "./PropsHubCV1";
+import Navbar from "../Navbar";
 import "./CV1.css";
 import EducatonHistoryPreviewProps, { ProfessionalCertificatePreviewProps, WorkProjectPreviewProps } from "./PropsPreviewCV1";
 function PreviewCV1() {
     const usingContext = useContext(cvContext);
     return (<>
+        <Navbar />
         <div className="outer-container">
             <div className="test-pdf">
                 <div className="cv-main-container" id="previewcv1" style={{ paddingTop: "3px" }}>

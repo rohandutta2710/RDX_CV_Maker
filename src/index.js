@@ -5,11 +5,10 @@ import Routings from "./Routings";
 import ContextManager from "./ContextManager.jsx";
 import InCompatibleSize from "./InCompatibleSize.jsx";
 import {cvContext} from "./ContextManager";
-import Navbar from "./Navbar";
 function Displays() {
     let usingContext = useContext(cvContext);
     return (<>
-        {usingContext.windowWidth >= 1000 ? <><Navbar/><Routings /></> : <InCompatibleSize />}
+        {usingContext.windowWidth >= 1000 ? <><Routings /></> : <InCompatibleSize />}
     </>)
 }
 ReactDOM.render(<BrowserRouter><ContextManager>
