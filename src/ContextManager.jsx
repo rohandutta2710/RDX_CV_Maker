@@ -1,4 +1,4 @@
-// Context Manger is State Hub. All the states will be passed from here to each & every components. No component will contain its own states.
+// Context Manager is State Hub. All the states will be passed from here to each & every components. No component will contain its own states.
 import React, { createContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import { jsPDF } from "jspdf";
@@ -47,15 +47,15 @@ function ContextManager(props) {
         workProjectList: [
             {
                 projectName: "Design of Game 2048",
-                projectLink: "https://github.com/rohandutta2710/game2048"
+                projectLink: "https://games2048.netlify.app/"
             },
             {
                 projectName: "UI of RDX Education Website",
-                projectLink: "https://github.com/rohandutta2710/rdxeducation"
+                projectLink: "https://rdxeducation.netlify.app/"
             },
             {
                 projectName: "Layout of Snake Game",
-                projectLink: "https://github.com/rohandutta2710/rdx.github.io/tree/main/snake"
+                projectLink: "https://memerboy.000webhostapp.com/snake/"
             }
         ],
         headingSpecialization: "Specialization",
